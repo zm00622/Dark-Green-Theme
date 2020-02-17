@@ -10,7 +10,7 @@ class About extends Component {
             <h1>I am Zary G. Manning</h1>
             <h3>Front End Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
             <br></br>
-            <p>For the love of design and the love of learning, software development will always be a passion.
+            <p className="about">For the love of design and the love of learning, software development will always be a passion.
             
             To me, this career is about more than building websites. Rather, I see this career as one that provides a medium between business
             and the humanities.
