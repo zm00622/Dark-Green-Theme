@@ -43,12 +43,39 @@ a {
 }
 
 .about {
-  background: rgba(24, 24, 24, 0.10);
+  background: rgba(24, 24, 24, 0.30);
   border-radius: 20px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.themes {
+  text-align: center;
+  background: rgba(66, 64, 64, 0.2);
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.projects {
+  background: rgba(24, 24, 24, 0.2);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.projects:hover {
+  background: rgba(24, 24, 24, 0.8);
 }
 
 /* For 13 inch Desktop: */
@@ -77,7 +104,8 @@ a {
   flex-direction: column;
   width: 200px; 
   padding: 5px 5px 5px 5px ;
-  background-image: url('./img/blur2.png');
+  /* background: rgba(198, 207, 200, 0.1);  */ /* Transparent Navbar */
+  background-image: url('./img/blur2.png'); 
   padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;

@@ -5,8 +5,8 @@ class Contact extends Component {
         return (
             <div className="col-home">
             <h1 className="subtopic">Contact Me</h1>
-            <h3>Email  :   zarymanning.com</h3>
-            <h3>Instagram   :   @zarymanning</h3>
+            <h3><center>Email  :   zarymanning@gmail.com</center></h3>
+            <h3><center>Phone   :   (912) 276-0290</center></h3>
             <Social />
             </div>
             )
